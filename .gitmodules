@@ -1,0 +1,3 @@
+[submodule "gowin-easy-linux"]
+	path = gowin-easy-linux
+	url = https://github.com/abhra0897/gowin-easy-linux.git
