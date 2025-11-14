@@ -1,7 +1,7 @@
 # Docker Gowin IDE
 Based on https://github.com/abhra0897/gowin-easy-linux/
 
-This container uses `libfaketime` to keep the included license file valid. No separate license is necessary. Note that this will mess up the modification times on any project files. The container date is set to 2025-07-01.
+This container uses `libfaketime` to keep the included license file valid. No separate license is necessary. Note that this will mess up the modification times on any project files. The container date is set to 2020-07-01.
 
 Some effort has been put into minimizing the necessary installed packages but more could probably still be done - `gtk3` is included as a crutch to pull in any missing graphics or font packages.
 
