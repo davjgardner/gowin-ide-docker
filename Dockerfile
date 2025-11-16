@@ -1,7 +1,7 @@
 FROM archlinux:latest
 
 # Install prereqs
-RUN pacman -Sy --noconfirm git qt5-base base-devel nss libxcomposite libxdamage libxrandr libxtst alsa-lib pcre2 gtk3 libfaketime ld-lsb freetype2 fontconfig
+RUN pacman -Sy --noconfirm git qt5-base base-devel nss libxcomposite libxdamage libxrandr libxtst alsa-lib pcre2 gtk3 ld-lsb freetype2 fontconfig
 RUN useradd -ms /bin/bash gowin; mkdir -p /opt/build /proj; chown gowin:gowin /opt/build /proj
 USER gowin
 WORKDIR /opt/build
